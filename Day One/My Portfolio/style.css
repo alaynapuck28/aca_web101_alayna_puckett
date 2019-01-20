@@ -55,7 +55,7 @@ body {
     width: 200px;
     height: 320px;
     margin: 20% auto;
-    border: 4px dotted blue
+    border: 4px dotted blue;
     grid-column: 2/3;
   }
   
