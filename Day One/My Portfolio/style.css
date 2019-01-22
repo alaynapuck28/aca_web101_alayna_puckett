@@ -89,19 +89,33 @@ body {
     font-style: italic;
   }
   /* Blog CSS */
+
+  .blogPage{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(117, 238, 177)
+  }
   .blogBody{
     background-image:none;
     width: 60%;
     margin-left: auto;
     margin-right: auto; 
+    background-color:rgba(204, 165, 230, 0.87)
 
   }
   .blogH1{
     color:black;
     border: none;
+    background-color:#0795C3;
   }
-  .blogPage{
-    margin: 10% auto;
-    display: flex;
-    flex-direction: column;
+  
+  p {
+    background-color:rgb(243, 113, 113) !important;
+    border-color: black;
+    border-width: 10px 5px;
+    border-style: solid;
+  }
+  first-letter:hover {
+    text-transform: capitalize
   }
