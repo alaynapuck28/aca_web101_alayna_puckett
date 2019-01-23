@@ -119,3 +119,9 @@ body {
   first-letter:hover {
     text-transform: capitalize
   }
+  span:hover::first-letter {
+    text-transform: capitalize
+  }
+p::first-letter:hover{
+  color: red;
+}
