@@ -98,18 +98,20 @@ body {
     border-radius: 25px;
   }
   .blogBody{
-    background-image:none;
+    background-image: url("bluebackground.jpg");
     width: 60%;
     margin-left: auto;
     margin-right: auto; 
     background-color:#0b3a42;
-
   }
   .blogH1{
     color: white;
     border-radius: 25px;
     background-color:#5ca0f2;
-    padding: 20px;
+    padding: 40px;
+  }
+  .blogH1:hover{
+    transform: scale(1.2) rotate(25deg);
   }
   
   .pblog {
