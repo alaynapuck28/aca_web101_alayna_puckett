@@ -4,7 +4,7 @@ body {
   font-weight: bold;
 	color: #6e859c;
   padding: 0;
-  /* margin: auto; */
+  margin: auto;
 	background: #e8e9e9;
 }
 .item {
@@ -78,12 +78,10 @@ color:white
 and (max-width: 1024px) {
   .grid-container{
   display: grid;
-  /* max-width: 1000px;
-  max-height: 900px; */
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr;  
   grid-gap: 10px;
-  /* margin:auto; */
+  margin:auto;
   background-color: #2196F3;
   /* padding: 15px; */
 }
