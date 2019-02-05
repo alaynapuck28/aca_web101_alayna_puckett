@@ -40,9 +40,8 @@ ul >li {
 }
 img{
   display:flex;
-  /* height:auto; */
   max-width: 100%;
-  align-content:center;
+  align-items:center;
   margin:auto;
 }
  #img{
@@ -50,6 +49,7 @@ img{
    height:70%;
    width: 80%;
    justify-content:center;
+   align-items: center;
  }
 #to-do{
   background-color: #51b3d6;
@@ -59,17 +59,14 @@ color:white
 
 /* Checkpoint 3 Updated Dashboard */
 
+/* Phone Display */
 @media screen and (max-width:576px) {
   .grid-container{
   display: grid;
-  /* max-width: 1000px;
-  max-height: 900px; */
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr;  
   grid-gap: 10px;
-  /* margin:auto; */
   background-color: #2196F3;
-  /* padding: 15px; */
 }
 }
 /* Tablet and bigger */
