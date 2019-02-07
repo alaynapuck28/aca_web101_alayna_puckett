@@ -4,7 +4,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "div0 div8"
     "div1 div1"
@@ -21,17 +21,23 @@
       font-size: 20px;
       text-align: center;
   }
-  li {
+  li{
       /* display:inline; */
       display:flex;
       flex-direction: row;
       justify-content: space-around;
+  }
+  ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   
   .div0 {
       grid-area: div0; 
       width: 100%;
       background-color: lightgreen;
+      height: 150px;
   }
   .div8 {
     display:flex;
@@ -40,6 +46,7 @@
     width:100%;
     flex-direction: row;
     justify-content: space-around;
+    height: 150px;
 }
   .div1{
     grid-area: div1;
@@ -66,4 +73,34 @@
 }
 .div9{
     grid-area: div9;
+}
+
+
+/* Row 2 */
+
+.div1{
+    height:300px;
+    width: 900px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+#pinkhair{
+    max-height:250px;
+    max-width: 450px;
+    padding: 10px;
+    margin:auto;
+}
+#quote {
+    font-size: 40px;
+    text-align: justify;
+    margin: auto;
+}
+/* Row 3 */
+img{
+    max-height: 200px;
+    max-width: 200px;
 }
