@@ -10,58 +10,80 @@
 </head>
 
 <body>
-    <header>
-        <h1>Name</h1>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+    <div class="main-nav">
+        <ul class="nav">
+            <li class="name">Alayna Puckett</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+    </div>
+    <header>
+        <img src="images/Puckett.A.jpg" alt="Picture of Alayna" class="profile-image">
+        <p class="top-text">Hello, I’m Alayna.</p>
+        <p class="top-text">My home is Austin, TX.</p>
     </header>
+
     <div id="maindiv">
+            <main class="flex">
+                    <div class="middle">
+                      <h2>Background</h2>
+                      <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
+                      <ul>
+                        <li>To learn more, <a href="#">view my resume.</a></li>
+                      </ul>
+                    </div> 
+              
+                    <div class="middle">
+                      <h2>Goals</h2>
+                      <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+                      <ul class="skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                      </ul>
+                      <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+                    </div> 
+              
+                  </main>
 
-        <div id="div1">
-            <img id="mypic" src="images/Puckett.A.jpg">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum</p>
-        </div>
         <div id="div2">
-            <iframe class="iframe-container" src="https://www.youtube.com/embed/IAX37XEcoyM?autoplay=1" width="560"
-                height="315" frameborder="0" allow="autoplay"></iframe>
 
-            <form class="pure-form pure-form-aligned">
+<div class="video-section">
+            <iframe class="iframe-container" src="https://www.youtube.com/embed/lN8mCoCrrqQ" width="560" height="315"
+                frameborder="0" allow="autoplay"></iframe>
+            <video class="video" width="400" controls>
+                        <source src="videos/bearmovie.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+            <form class="form">
                 <fieldset>
-                    <div class="pure-control-group">
-                        <label for="name">Username</label>
+                    <div class="group">
+                        <label for="name">Name</label>
                         <input id="name" type="text" placeholder="Username">
                         <span class="pure-form-message-inline">This is a required field.</span>
                     </div>
+                    <div class="group">
+                            <label for="name">Location</label>
+                            <input id="name" type="text" placeholder="Username">
+                        </div>
 
-                    <div class="pure-control-group">
-                        <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Password">
-                    </div>
-
-                    <div class="pure-control-group">
+                    <div class="group">
                         <label for="email">Email Address</label>
                         <input id="email" type="email" placeholder="Email Address">
                     </div>
 
-                    <div class="pure-control-group">
-                        <label for="foo">Supercalifragilistic Label</label>
-                        <input id="foo" type="text" placeholder="Enter something here...">
+                    <div class="group">
+                      
+       
+                <span>Message:</span>
+                <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
                     </div>
 
-                    <div class="pure-controls">
-                        <label for="cb" class="pure-checkbox">
-                            <input id="cb" type="checkbox"> I've read the terms and conditions
-                        </label>
-
-                        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                        <button type="submit" class="button submit">Submit</button>
+                        <button type="button" class="button reset" value="Reset">Reset</button> 
                     </div>
                 </fieldset>
 
