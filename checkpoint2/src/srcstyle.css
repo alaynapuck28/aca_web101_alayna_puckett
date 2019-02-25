@@ -1,0 +1,19 @@
+body{
+    color:white;
+    background-color: #0096cc;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+}
+header{
+    min-height: 200px;
+    background-color: rgba(117, 200, 221, 0.5);
+    margin-bottom:30px;
+    
+}
+/* Phone Display */
+@media screen and (max-width:576px) {
+    .grid-container{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;  
+    grid-gap: 10px; 
+    }}   
