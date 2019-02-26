@@ -10,13 +10,13 @@ header {
   padding-top: 5px;
   min-height: 200px;
   margin-bottom: 30px;
-  /* overflow-wrap: break-word; */
+  transition: all 2s;
 }
-#logo{
-   padding-left:50px;
-   padding-bottom:50px;
-   height: 300px;
-   width: 300px;
+#logo {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  height: 300px;
+  width: 300px;
 }
 
 .grid-container {
@@ -31,7 +31,7 @@ div {
   border: 5px solid rgba(65, 107, 155, 0.74);
   background-color: lightblue;
   border-radius: 5%;
-  padding:15px;
+  padding: 15px;
   min-height: 500px;
 }
 
@@ -47,37 +47,57 @@ nav > a {
   height: 10%;
   width: 15%;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 20px;
   text-align: center;
   border: 2px solid white;
   border-radius: 25px;
-  overflow:auto;
+  overflow: auto;
+}
+nav:hover a {
+  transform: scale(0.75);
+}
+#a1 {
+  transition: all 300ms;
+}
+#a2 {
+  transition: all 1s;
+}
+
+#a3 {
+  transition: all 2s;
+}
+#a4 {
+  transition: all 3s;
+}
+
+header #logo:hover {
+  transform: rotate(10deg) scale(1.2);
 }
 
 /* Body */
-#sandwich{
-    width: 80%;
-    height: 400px;
+
+#sandwich {
+  width: 80%;
+  height: 400px;
+  padding-top: 20px;
 }
+
 /* Menu */
 
 .menu {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
-li{
-    list-style-type: none;
-}
-
-.div3{
-    padding-top: 20px;
-    text-align: center;
+li {
+  list-style-type: none;
 }
 
-
+.div3 {
+  padding-top: 20px;
+  text-align: center;
+}
 
 /* Desktop */
 /* @media (min-width: 992px) {
@@ -96,9 +116,8 @@ li{
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  header{
-    display:block;
+  header {
+    display: block;
     text-align: center;
+  }
 }
-}
-
