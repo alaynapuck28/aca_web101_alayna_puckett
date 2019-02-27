@@ -1,0 +1,39 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 1200px;
+    height: 1200px;
+    margin: 6% auto;
+}
+
+.ul {
+    border-bottom: solid 2px black;
+    border-right:solid 2px black;
+}
+.um{
+    border-bottom: solid 2px black;
+    border-right:solid 2px black;
+}
+.ur{
+    border-bottom: solid 2px black;
+}
+.ml{
+    border-bottom: solid 2px black;
+    border-right:solid 2px black;
+}
+.mm{
+    border-bottom: solid 2px black;
+    border-right:solid 2px black;
+}
+.mr{
+    border-bottom: solid 2px black;
+}
+.bl{
+    border-right:solid 2px black;
+
+
+}
+.bm{
+    border-right:solid 2px black;
+}

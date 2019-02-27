@@ -1,8 +1,3 @@
-body {
-  color: white;
-  background-color: #0096cc;
-  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
-}
 header {
   display: flex;
   flex-direction: row;
@@ -27,13 +22,8 @@ header {
   margin: 0 auto;
   min-height: 200px;
 }
-div {
-  border: 5px solid rgba(65, 107, 155, 0.74);
-  background-color: lightblue;
-  border-radius: 5%;
-  padding: 15px;
-  min-height: 500px;
-}
+
+
 
 /* Nav Bar Styling */
 nav {
@@ -54,6 +44,8 @@ nav > a {
   border-radius: 25px;
   overflow: auto;
 }
+
+/* Header Animation */
 nav:hover a {
   transform: scale(0.75);
 }
@@ -76,22 +68,21 @@ header #logo:hover {
 }
 
 /* Body */
-
-#sandwich {
-  width: 80%;
-  height: 400px;
-  padding-top: 20px;
+div {
+  border: 5px solid rgba(65, 107, 155, 0.74);
+  background-color: lightblue;
+  border-radius: 5%;
+  padding: 15px;
+  min-height: 400px;
 }
-
-/* Menu */
-
+/* Menu Div*/
 .menu {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 li {
   list-style-type: none;
+  margin: 20px 0;
 }
 
 .div3 {
@@ -99,14 +90,13 @@ li {
   text-align: center;
 }
 
-/* Desktop */
-/* @media (min-width: 992px) {
-    .grid-container{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-} */
+/* Div 3*/
+
+#sandwich {
+  width: 80%;
+  height: 400px;
+  padding-top: 20px;
+}
 
 /* Phone Display */
 @media screen and (max-width: 768px) {
