@@ -1,0 +1,55 @@
+body {
+    background-color: #2d71d6;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+}
+
+.tower {
+    background-color: white;
+    width: 15%;
+    height: 65%;
+    margin: auto auto 0 auto;
+    border-radius: 1%;
+}
+
+.item1 {
+    background-color: navy;
+    width: 15%;
+    height: 30px;
+    left: 9.5%;
+    top: 83%;
+}
+
+.item2 {
+    background-color: lightskyblue;
+    width: 20%;
+    height: 35px;
+    left: 7%;
+    top: 88%;
+}
+
+.item3 {
+    background-color: blue;
+    width: 25%;
+    height: 40px;
+    left: 4.5%;
+    top: 93.5%;
+}
+
+.item1, .item2, .item3 {
+    position: absolute;
+}
