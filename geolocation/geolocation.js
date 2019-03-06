@@ -9,5 +9,5 @@ function getLocation() {
 }
 
 function displayPosition(position) {
-  myLocation.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude
+  myLocation.innerHTML = "Longitude: " + position.coords.longitude + " <br></br> Latitude:" + position.coords.latitude
 }

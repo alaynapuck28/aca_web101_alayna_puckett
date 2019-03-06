@@ -1,0 +1,22 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  height: 100%;
+}
+
+button {
+  width: 50%;
+  color: white;
+  background-color: navy;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  height: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
