@@ -83,8 +83,8 @@ and (max-width: 1024px) {
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr;  
   grid-gap: 10px;
-  /* margin:auto; */
+  margin:auto;
   background-color: #2196F3;
-  /* padding: 15px; */
+  
 }
 }

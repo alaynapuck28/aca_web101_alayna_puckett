@@ -8,6 +8,7 @@ body {
   border:2px solid white;
   width:80%;
   margin:auto;
+  min-width: 200px;
 }
 
 h1 {
@@ -30,9 +31,10 @@ li {
   width: 30%;
   margin: 0px auto;
   border-radius: 3px;
-  border: 1px solid #000;
+  border: 1px solid white;
   padding: 10px;
   margin-bottom: 10px;
+  min-width: 100px;
 }
 
 

@@ -51,11 +51,11 @@ img{
 #to-do{
   background-color: #51b3d6;
   background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
-  color:white
+  color:white;
 }
 iframe{
-  height:400px;
-  width:400px;
+  height:90%;
+  width:90%;
 }
 #top{
   display:flex;
@@ -66,7 +66,6 @@ iframe{
 
 /* Checkpoint 3 Updated Dashboard */
 
-/* Phone Display */
 @media screen and (max-width:576px) {
   .grid-container{
   display: grid;
@@ -78,14 +77,16 @@ iframe{
 }
 /* Tablet and bigger */
 
-@media screen and (min-width: 576px) 
+@media screen and (min-width: 768px) 
 and (max-width: 1024px) {
   .grid-container{
   display: grid;
+  /* max-width: 1000px;
+  max-height: 900px; */
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr;  
   grid-gap: 10px;
-  margin:auto;
+  /* margin:auto; */
   background-color: #2196F3;
   /* padding: 15px; */
 }
