@@ -1,0 +1,52 @@
+body {
+    background-color: #003604;
+    background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+/* Picture styling */
+#moneybag {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    height:40%;
+    border-radius:50%;
+    min-width:200px;
+    min-height:200px;
+}
+
+#moneybag:hover {
+    transform:rotate(360deg);
+    transition: all .5s;
+  }
+/* Clicker button */
+.money .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 20%;
+    height: 100%;
+    min-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(28, 184, 65);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+/* counter styling*/
+#counter {
+    font-size: 200%;
+    font-family: 'Anton', sans-serif;
+    margin: 0 auto;
+    margin-top:10px;
+    text-align: center;
+    color:white;
+}
+/*100 clicks picture formatting*/
+#nomoremoney{
+    height:200px;
+    width:200px;
+}

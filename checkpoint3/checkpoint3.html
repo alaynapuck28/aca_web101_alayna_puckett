@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../to-do-list/style.css" />
+    <link rel="stylesheet" href="CSS/checkpoint3style.css" />
+    <link href="../animate/animate.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="item">
+        <h2>Location</h2>
+
+        <button
+          class="location"
+          id="locationbtn"
+          onclick="getLocation()"
+          onclick="function()"
+        >
+          Find my Coordinates!
+        </button>
+        <p id="my-coordinates" class="my-coordinates"></p>
+      </div>
+
+      <div id="top" class="item">
+        <h1 class="animated rotateIn delay-1s">Hello Alayna</h1>
+        <div id="img">
+          <img src="images/beachpic.jpeg" />
+        </div>
+      </div>
+
+      <div class="item" id="towers">
+        <h2>Towers of Hanoi</h2>
+        <a href="../towersofhanoi/index.html">Towers of Hanoi</a>
+      </div>
+
+      <div class="item">
+        <h2>Money Game</h2>
+        <section class="game">
+          <div class="stress">
+            <a class="reliever" href="stressgame.html">Make up to $100</a>
+          </div>
+        </section>
+      </div>
+
+      <div class="item" id="to-do">
+        <section id="list-section">
+          <h2>To-Do List</h2>
+          <ul class="boxinner" id="list">
+            <li>
+              <input type="checkbox" />Blog Post
+              <button class="delete">Delete</button>
+            </li>
+            <li>
+              <input type="checkbox" />Laundry
+              <button class="delete">Delete</button>
+            </li>
+          </ul>
+          <input class="boxinner" type="text" id="new-text" /><button
+            class="boxinner"
+            id="add"
+          >
+            Add
+          </button>
+        </section>
+      </div>
+
+      <div class="item">
+        <h2>Date</h2>
+        <div id="bottomright">
+          <iframe
+            src="http://free.timeanddate.com/clock/i6ouv7vr/n24/fn10/fs20/fcfff/tct/pct/ftb/bac036/tt0/tw0/tm1/ts1/tb4"
+            frameborder="0"
+            width="139"
+            height="48"
+            allowTransparency="true"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Scripts/checkpoint.js"></script>
+    <script src="../to-do-list/to-do.js"></script>
+  </body>
+</html>
