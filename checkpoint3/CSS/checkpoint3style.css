@@ -9,6 +9,10 @@ body {
 	background: #e8e9e9;
 }
 
+p{
+  color:white;
+}
+
 .item {
   color: rgb(90, 107, 145);
   padding: 0.85em;
@@ -47,7 +51,7 @@ h2{
 
 /* Name and Picture Top Middle */
 
-#top{
+#middletop{
   display:flex;
   flex-direction: column;
   align-items: center;
